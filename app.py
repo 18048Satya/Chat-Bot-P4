@@ -13,6 +13,7 @@ from nltk.tokenize import word_tokenize
 # Download necessary NLTK data
 nltk.download('punkt')
 nltk.download('stopwords')
+nltk.data.path.append('./nltk_data')
 
 # File paths
 INTENTS_FILE = 'intents.json'
