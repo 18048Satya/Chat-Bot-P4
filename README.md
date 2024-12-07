@@ -23,11 +23,11 @@ This is a chatbot application built using Streamlit, scikit-learn, and NLTK for 
 
 ### About
 
-![Alt Text](path/to/your/image.png)
+![Alt Text](https://github.com/18048Satya/Chat-Bot-P4/blob/main/images/Screenshot%20(237).png)
 
 ### Chat History 
 
-![Alt Text](path/to/your/image.png)
+![Alt Text](https://github.com/18048Satya/Chat-Bot-P4/blob/main/images/Screenshot%20(238).png)
 
 
 
