@@ -11,8 +11,6 @@ from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 
 # Download necessary NLTK data
-nltk.download('punkt')
-nltk.download('stopwords')
 nltk.data.path.append('./nltk_data')
 
 # File paths
@@ -127,7 +125,7 @@ def chat_page(model, vectorizer, responses):
 # Main app logic
 def main():
     # Navigation using a selectbox
-    page = st.sidebar.selectbox("", ["Home", "About", "History"])
+    page = st.sidebar.selectbox("go to", ["Home", "About", "History"])
 
     # Train the chatbot model
     model, vectorizer, responses = train_model()
