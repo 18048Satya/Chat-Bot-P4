@@ -6,8 +6,11 @@ This is a chatbot application built using Streamlit, scikit-learn, and NLTK for 
 
 ## Features
 -Natural Language Processing: The chatbot preprocesses user input using NLTK to filter out stopwords and tokenize the text.
+
 -Model Training: The chatbot uses a RandomForestClassifier with TfidfVectorizer to classify user input into predefined intents.
+
 -Conversation History: User conversations are logged and can be viewed in the 'History' page.
+
 -Streamlit Interface: A simple and interactive web interface for chatting with the bot.
 
 ---
