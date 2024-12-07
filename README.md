@@ -15,6 +15,22 @@ This is a chatbot application built using Streamlit, scikit-learn, and NLTK for 
 
 ---
 
+## Pages 
+
+### Home 
+
+![Alt Text](path/to/your/image.png)
+
+### About
+
+![Alt Text](path/to/your/image.png)
+
+### Chat History 
+
+![Alt Text](path/to/your/image.png)
+
+
+
 ## Prerequisites
 
 -Python (3.6 or above)
