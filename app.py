@@ -66,7 +66,8 @@ def train_model():
     # Prepare training data
     for intent in intents['intents']:
         for pattern in intent['patterns']:
-            processed_pattern = preprocess_text(pattern)  # Preprocess patterns
+            processed_pattern = preprocess_text(pattern)  
+    # Preprocess patterns
             training_sentences.append(processed_pattern)
             training_labels.append(intent['tag'])
         responses[intent['tag']] = intent['responses']
@@ -140,4 +141,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-    
