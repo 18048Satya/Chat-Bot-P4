@@ -13,9 +13,13 @@ This is a chatbot application built using Streamlit, scikit-learn, and NLTK for 
 ---
 
 ## Prerequisites
+
 -Python (3.6 or above)
+
 -Streamlit
+
 -scikit-learn
+
 -NLTK
 
 ---
